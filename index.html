@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="style.css">
+
+      <title>site</title>
+   </head>
+   <body class="fundo">
+
+
+      <nav class="navbar" >
+
+         <a href="#" class="Accueil">Antiquites <br>
+         Mike <br>
+     Decker </a>
+         <div class="nav-links">
+ 
+             <ul>
+                 <li class="active"><a href="testemenu.html">Accueil</a></li>
+                 <li><a href="index.html">Produtos</a></li>
+                 <li><a href="contato.html">Contato</a></li>
+                 <li><a href="#">Question</a></li>
+                 <li><a href="#">Reservar</a></li>
+                 <li></li>
+             </ul>
+         </div>  
+         <img src="menu-btn.png" alt="menusite" class="menu-hamburguer">
+ 
+ 
+ 
+  </nav>
+
+  <header>
+    
+</body>
+
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburguer");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu');
+    });
+</script>
+
+
+
+
+
+
+
+
+
+      <div class="container">
+         <div class="card__container">
+            <article class="card__article">
+               <img src="images/foto1.png" alt="image" class="card__img">
+
+               <div class="card__data">
+                  <span class="card__description">
+                     Prix:3900€
+                  </span>
+                  <h2 class="card__title">Secretaire em Noyer</h2>
+                  <a href="#" class="card__button">Voir Plus de photos</a>
+               </div>
+            </article>
+
+            <article class="card__article">
+               <img src="images/foto3.png" alt="image" class="card__img">
+
+               <div class="card__data">
+                  <span class="card__description">preço</span>
+                  <h2 class="card__title">objeto</h2>
+                  <a href="#" class="card__button">ver mais </a>
+               </div>
+            </article>
+
+            <article class="card__article">
+               <img src="images/foto4.png" alt="image" class="card__img">
+
+               <div class="card__data">
+                  <span class="card__description">PRIX  0000€</span>
+                  <h2 class="card__title">YEUX plus </h2>
+                  <a href="#" class="card__button">VOIR PLUS </a>
+               </div>
+            </article>
+            <article class="card__article">
+               <img src="images/foto2.png" alt="image" class="card__img">
+
+               <div class="card__data">
+                  <span class="card__description">PRIX</span>
+                  <h2 class="card__title">REGARDE+</h2>
+                  <a href="#" class="card__button">ver mais </a>
+               </div>
+            </article>
+         </div>
+      </div>
+   </body>
+</header>
+</html>
